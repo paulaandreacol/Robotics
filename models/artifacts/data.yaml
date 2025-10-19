@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Alien', 'Circle', 'Diamon', 'Ice', 'Mushroom', 'Stop_Sign']
+
+roboflow:
+  workspace: paula-g
+  project: robotics-2-h0pnh
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/paula-g/robotics-2-h0pnh/dataset/2
